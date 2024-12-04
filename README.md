@@ -14,7 +14,7 @@ This is a projectdesigned for ME108 (Making and Breaking) at Stanford to monitor
   - [Setup](#setup)
   - [Loop](#loop)
 - [Troubleshooting](#troubleshooting)
-- [Future Improvements](#future-improvements)
+- [Future Improvements](#future-improvements-ideation)
 - [License](#license)
 
 ## Components
