@@ -33,7 +33,7 @@ TODO: Add circuit diagram here
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/roaster_temp_monitoring.git
+    git clone https://github.com/dchaniel/me108-roaster-temp-monitoring.git
     ```
 2. **Install Arduino IDE**  
    Download and install the [Arduino IDE](https://www.arduino.cc/en/software) if you haven't already.
