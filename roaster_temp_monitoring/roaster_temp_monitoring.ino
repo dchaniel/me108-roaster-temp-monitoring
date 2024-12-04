@@ -1,5 +1,5 @@
 #include <Adafruit_MAX31865.h> // This is the PT100 RTD interface board.
-#include <TM1637Display.h> .   // One of many libraries for the TM1637.
+#include <TM1637Display.h>     // One of many libraries for the TM1637.
 
 // MAX31865 configuration
 #define MAX_CS   9   // Chip Select
