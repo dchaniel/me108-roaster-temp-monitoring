@@ -31,8 +31,13 @@ const uint8_t CHAR_R = SEG_E | SEG_G;
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial) ; 
-  Serial.println("Serial port ready.");
+  unsigned long startTime = millis();  
+  while (!Serial && (millis() - startTime < 3000)) {  
+    // Wait up to 3 seconds for serial connection  
+  }  
+  if (Serial) {  
+    Serial.println("Serial port ready.");  
+  }  
 
   display.setBrightness(5);
 
