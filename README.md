@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a projectdesigned for ME108 (Making and Breaking) at Stanford to monitor and display the temperature of a coffee roaster using a PT100 RTD sensor. The system uses an Adafruit MAX31865 RTD-to-Digital converter and a TM1637-based 4-digit 7-segment display to show the temperature of the sensor. Makes roasting to your desired temp easy!
+This is a project designed for ME108 (Making and Breaking) at Stanford to monitor and display the temperature of a coffee roaster using a PT100 RTD sensor. The system uses an Adafruit MAX31865 RTD-to-Digital converter and a TM1637-based 4-digit 7-segment display to show the temperature of the sensor. Makes roasting to your desired temp easy!
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This is a projectdesigned for ME108 (Making and Breaking) at Stanford to monitor
   - [Setup](#setup)
   - [Loop](#loop)
 - [Troubleshooting](#troubleshooting)
-- [Future Improvements](#future-improvements-ideation)
+- [Future Improvements Ideation](#future-improvements-ideation)
 - [License](#license)
 
 ## Components
@@ -31,14 +31,46 @@ This is a projectdesigned for ME108 (Making and Breaking) at Stanford to monitor
 
 ## Installation
 
-1. **Clone the Repository**
+1. **Install Git (if not already installed)**
+
+    Git is required to clone this repository. If you don't have Git installed on your Mac, follow one of the methods below to install it.
+
+    - **Using Homebrew**
+
+        If you have Homebrew installed, you can install Git by running the following command in your terminal:
+
+        ```bash
+        brew install git
+        ```
+
+    - **Using the Git Installer**
+
+        Download the Git installer for macOS from the official [Git website](https://git-scm.com/download/mac) and follow the installation instructions.
+
+    - **Verify Installation**
+
+        After installation, verify that Git is installed by running:
+
+        ```bash
+        git --version
+        ```
+
+        You should see output similar to:
+
+        ```
+        git version 2.x.x
+        ```
+
+2. **Clone the Repository**
+
     ```bash
     git clone https://github.com/dchaniel/me108-roaster-temp-monitoring.git
     ```
-2. **Install Arduino IDE**  
+
+3. **Install Arduino IDE**  
    Download and install the [Arduino IDE](https://www.arduino.cc/en/software) if you haven't already.
 
-3. **Install Required Libraries**
+4. **Install Required Libraries**
     - **Adafruit MAX31865 Library**
         - Open Arduino IDE.
         - Navigate to `Sketch` > `Include Library` > `Manage Libraries`.
@@ -46,10 +78,10 @@ This is a projectdesigned for ME108 (Making and Breaking) at Stanford to monitor
     - **TM1637 Display Library**
         - Similarly, search for `TM1637` and install the library by Avishay Orpaz.
 
-4. **Connect the Hardware**
+5. **Connect the Hardware**
     - Follow the [circuit diagram](#circuit-diagram) to connect the PT100 sensor, MAX31865, TM1637 display, and Arduino board.
 
-5. **Upload the Code**
+6. **Upload the Code**
     - Open the `roaster_temp_monitoring.ino` file in Arduino IDE.
     - Select the appropriate board and port from `Tools` > `Board` and `Tools` > `Port`.
     - Click the upload button to transfer the code to the Arduino.
@@ -65,7 +97,6 @@ Once the system is powered and the code is uploaded:
 ## Code Structure
 
 The primary code resides in the `roaster_temp_monitoring.ino` file. Below is an overview of its structure and functionality.
-
 
 ### Setup
 
