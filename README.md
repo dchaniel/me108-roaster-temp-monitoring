@@ -27,7 +27,7 @@ This is a projectdesigned for ME108 (Making and Breaking) at Stanford to monitor
 
 ## Circuit Diagram
 
-TODO: Add circuit diagram here
+<img width="1284" alt="image" src="https://github.com/user-attachments/assets/46e57e3c-6c4c-499b-9ebc-b56c31d10f10">
 
 ## Installation
 
